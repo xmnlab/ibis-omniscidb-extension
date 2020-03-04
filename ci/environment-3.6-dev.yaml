@@ -1,0 +1,29 @@
+channel:
+  - conda-forge
+  - default
+dependencies:
+  # should be replaced by an ibis-dev conda package
+  - black=19.10b0
+  - click
+  - flake8
+  - geopandas
+  - graphviz
+  - jinja2
+  - mypy
+  - numpy>=1.15
+  - pandas>=1.0.0
+  - plumbum
+  - pymapd
+  - pytest>=4.5
+  - pytest-cov
+  - pytest-xdist
+  - python=3.6
+  - python-graphviz
+  - pytz
+  - regex
+  - requests
+  - shapely
+  - toolz
+  - pip
+  - pip:
+    - git+git://github.com/ibis-project/ibis@master
